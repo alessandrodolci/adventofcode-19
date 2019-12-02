@@ -53,4 +53,3 @@ with open("input/input-1.txt", "r") as input_file:
                     print("Expected result is: " + str((100 * noun) + verb))
 
                     sys.exit(0)
-        
