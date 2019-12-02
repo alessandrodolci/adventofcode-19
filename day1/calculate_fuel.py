@@ -1,7 +1,7 @@
-sum = 0
-
 def get_module_fuel(mass):
     return (mass // 3) - 2
+
+sum = 0
 
 with open("input/input-1.txt", "r") as input_file:
     for line in input_file:
