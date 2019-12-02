@@ -3,9 +3,9 @@ OP_MUL = 2
 OP_TERM = 99
 
 def execute_operation(op, first_term, second_term):
-    if current_op == OP_SUM:
+    if op == OP_SUM:
         return first_term + second_term
-    elif current_op == OP_MUL:
+    elif op == OP_MUL:
         return first_term * second_term
 
 with open("input/input-1.txt", "r") as input_file:
