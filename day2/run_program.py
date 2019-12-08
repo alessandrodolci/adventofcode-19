@@ -1,3 +1,4 @@
+import os
 import sys
 
 OP_SUM = 1
@@ -29,7 +30,7 @@ def run_program(line):
     
     return codes
 
-with open("input/input-1.txt", "r") as input_file:
+with open(os.path.join("input", "input-1.txt"), "r") as input_file:
     for line in input_file:
         processed_line = line.split(",")
         processed_line[1] = 12
